@@ -8,24 +8,25 @@
 > 注意：截至 2024.12.23 日，C1 所需要的 3DPlayer 软件需要向官方申请内测获取。
 
 本仓库包含：
+
 - docs/ : 包含展示用文件
-    - img_seq/ : 渲染出的图片序列
-    - default_cube.blend : Blender 示例文件
-    - output_matrix.mp4 : 可以直接在 3Dplayer 中使用的视频文件
-    - temp_matrix.png: 使用图片序列生成的中间文件，调试&展示用
+  - img_seq/ : 渲染出的图片序列
+  - default_cube.blend : Blender 示例文件
+  - output_matrix.mp4 : 可以直接在 3Dplayer 中使用的视频文件
+  - temp_matrix.png: 使用图片序列生成的中间文件，调试&展示用
 - `__init__.py` : Blender 插件脚本
 - `converter.py` : 转换脚本
 
 ---
 
 ## 使用说明：
+
 ### 安装 Blender 插件
 
 0. [点击此处下载本插件的压缩包](https://github.com/709924470/blender-c1-holoscreen-addon/archive/refs/heads/master.zip)
-
-1. 打开 Blender, 在 Blender 中选择`编辑 > 首选项 > 插件 > 从硬盘安装`
+1. 打开 Blender, 在 Blender 中选择 `编辑 > 首选项 > 插件 > 从硬盘安装`
 2. 在弹出的文件选择框中找到下载到的位置安装
-3. 在 Blender 的插件管理界面，找到`c1_exporter`并启用
+3. 在 Blender 的插件管理界面，找到 `c1_exporter`并启用
 
 ### 使用插件
 
@@ -41,11 +42,11 @@
 > 注意：你可以将这个脚本移动到任意位置
 
 0. 你需要先安装
-    - Python 3.10 以上版本
-    - 安装 Python 后通过命令行，输入`pip install opencv-python`来安装 opencv
-    - ffmpeg, 将软件放在与此脚本同一目录下或环境变量`PATH`内任意文件夹下
-1. 打开命令行，使用`cd`指令导航到存放此脚本的目录
-2. 使用`python converter.py`来运行脚本，你可以通过在结尾添加` -h`来查看使用方法
+   - Python 3.10 以上版本
+   - 安装 Python 后通过命令行，输入 `pip install opencv-python`来安装 opencv
+   - ffmpeg, 将软件放在与此脚本同一目录下或环境变量 `PATH`内任意文件夹下
+1. 打开命令行，使用 `cd`指令导航到存放此脚本的目录
+2. 使用 `python converter.py X:/完整的/图片/路径/ Y:/完整的/输出/路径(可省略)`来运行脚本，你可以通过在结尾添加 ` -h`来查看使用方法
 
 如果不出意外你将会得到一个包含渲染出来的视频文件，此文件可以直接在 3d player 中使用。
 
