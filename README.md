@@ -34,7 +34,7 @@
 3. 向下滚动找到 `Companion1 Hologram Setup` 并点击
 4. 按照面板提示内容进行操作即可
 
-![界面截图](./docs/screen_shot.png)
+![screen_shot](https://github.com/user-attachments/assets/18bc051e-c324-47a6-9026-b033f1624d39)
 
 ### 使用转换脚本 `converter.py`
 
@@ -52,6 +52,12 @@
 <summary>
 <detail>视差网格样例<detail/>
 
-![image](./docs/temp_matrix.png)
+网格图片:
+
+![temp_matrix](https://github.com/user-attachments/assets/a325ad19-6c9c-4730-a5a5-118ad9813194)
+
+网格视频:
+
+https://github.com/user-attachments/assets/1c0ce87d-50ff-4700-9ce8-3009c96ea9e3
 
 <summary/>
