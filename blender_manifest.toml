@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+
+id = "c1_exporter"
+version = "1.0.0"
+name = "c1_exporter"
+tagline = "Render"
+maintainer = "S. 'Walter' Ji <kinokuniya.akatsuki@gmail.com>"
+type = "add-on"
+
+website = "https://github.com/709924470/blender-c1-holoscreen-addon"
+tags = ["Render", "Scene"]
+blender_version_min = "4.0.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2024 S. 'Walter' Ji",
+]
+
+[permissions]
+files = "存储渲染的视差文件"
